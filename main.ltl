@@ -1,0 +1,15 @@
+// ltl-pprof-lite/main.ltl
+//
+// pprof-format CPU profile writer with flame graph export.
+//
+// This is an early skeleton — contribution is welcome! See the
+// README for build instructions.
+
+import std::io
+import std::fmt
+
+pub fn main(args: [str]) -> Int {
+    io::println("ltl-pprof-lite v0.1.0")
+    io::println("pprof-format CPU profile writer with flame graph export.")
+    0
+}
